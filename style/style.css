@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root {
+    /* COLORS */
+
+    /* Primary */
+
+    /* CTA text */
+    --clr-primary-100: hsl(356, 100%, 66%);
+    /* CTA hover */
+    --clr-primary-200: hsl(335, 100%, 74%);
+    /* Headings */
+    --clr-primary-300: hsl(208, 49%, 24%);
+
+    /* Neutral */
+
+    /* Text */
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    /* Footer Text */
+    --clr-neutral-200: hsl(240, 2%, 79%);
+    /* Body Copy */
+    --clr-neutral-300: hsl(207, 13%, 34%);
+    /* Footer bg */
+    --clr-neutral-400: hsl(240, 10%, 16%);
+
+    /* Gradients */
+    --grd-linear-h-100: linear(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    --grd-linear-h-200: linear(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+
+    /* Fonts */
+
+    /* Font family */
+    --font-ff-100: 'Overpass', sans-serif;
+    --font-ff-200: 'Ubuntu', sans-serif;
+
+    /* Weight */
+    --font-fw-300: 300;
+    --font-fw-400: 400;
+    --font-fw-500: 500;
+    --font-fw-600: 600;
+    --font-fw-700: 700;
+}
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Defaults */
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 5.653rem;
+}
+
+h2 {
+    font-size: 3.998rem;
+}
+
+h3 {
+    font-size: 2.827rem;
+}
+
+h4 {
+    font-size: 1.999rem;
+}
+
+h5 {
+    font-size: 1.414rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+small,
+.text_small {
+    font-size: 0.707rem;
+}
+
+ul, ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
